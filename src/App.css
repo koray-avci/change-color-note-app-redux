@@ -11,7 +11,7 @@
 svg {
   width: 20px;
   height: 20px;
-  color: #eaeaea;
+  color: white;
   cursor: pointer;
 }
 
@@ -40,28 +40,27 @@ button {
   border-radius: 20px;
 }
 
-.from {
+.form {
   padding: 16px;
-  background-color: #fff;
-  border: 1px solid #b1b1b1;
+  background-color: #eaeaea;
   margin-top: 16px;
-  width: 40%;
+  width: 25%;
 }
 
 .textarea {
   width: 100%;
-    border:none;
-    height: 80px;
-    resize: none;
-    padding: 6px;
-    font-size: 14px;
+  border: none;
+  height: 80px;
+  resize: none;
+  padding: 6px;
+  font-size: 14px;
 }
 
 .textarea:focus {
   outline: 0;
 }
 
-.form-bottom{
+.form-bottom {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -75,7 +74,7 @@ button {
   gap: 6px;
 }
 
-.colors > button {
+.colors>button {
   width: 24px;
   height: 24px;
   border-radius: 100%;
@@ -84,38 +83,28 @@ button {
   justify-content: center;
 }
 
-.pink{
+.pink {
   background-color: #f06292;
 }
-.pink > svg{
-  color: #b44a6d;
-}
-.purple{
+
+.purple {
   background-color: #ba68c8;
 }
-.purple > svg{
-  color: #884c92;
-}
-.red{
+
+.red {
   background-color: #e33737;
 }
-.red > svg{
-  color: #b63939;
-}
-.blue{
+
+.blue {
   background-color: #4fc3f7;
 }
-.blue > svg{
-  color: #3e94bd;
-}
-.green{
+
+.green {
   background-color: #aed581;
 }
-.green > svg{
-  color: #83a061;
-}
 
-.form-bottom > button {
+
+.form-bottom>button {
   border: 1px solid #818181;
   color: #fff;
   background-color: #44c767;
@@ -125,44 +114,44 @@ button {
   font-size: 12px;
 }
 
-.form-bottom > button:hover{
+.form-bottom>button:hover {
   background-color: #3aa757;
 }
 
 
-.note{ 
-  padding: 8px;    
+.note {
+  margin-top: 1rem;
+  padding: 8px;
   border-radius: 2px;
-  box-shadow: 2px 3px 9px -4px rgba(0,0,0,0.5);
-  width:30%;
-  height:60px;
+  box-shadow: 2px 3px 9px -4px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 60px;
   overflow: auto;
 }
-.note::-webkit-scrollbar-track
-{
--webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
-background-color: #F5F5F5;
+
+.note::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #F5F5F5;
 }
 
-.note::-webkit-scrollbar
-{
-width: 8px;
-background-color: #F5F5F5;
+.note::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F5F5F5;
 }
 
-.note::-webkit-scrollbar-thumb
-{
--webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-background-color: #818181;
+.note::-webkit-scrollbar-thumb {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+  background-color: #818181;
 }
 
-.note > button{
+.note>button {
   width: 16px;
   height: 16px;
-  float:left;
+  float: left;
   margin-right: 6px;
 }
-.note > p{
+
+.note>p {
   text-align: justify;
 }
 
